@@ -8,8 +8,6 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     Animator animator;
     Vector2 movement;
-    [SerializeField]
-    private float attackSpeed = 0f;
     private float attackTime = .25f;
     private float attackCounter = .25f;
     private bool isAttacking;
